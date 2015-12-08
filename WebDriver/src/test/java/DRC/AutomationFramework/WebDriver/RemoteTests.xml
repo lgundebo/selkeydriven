@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="4">
+<--!
+  
+  <test name="Chrome-Mac-10.9">
+  		<parameter name="selenium.platform" value="MAC"></parameter>        
+        <parameter name="selenium.browser" value="CHROME"></parameter>
+        <parameter name="selenium.version" value="MAC_10_8_64_BIT"></parameter>
+        <parameter name="selenium.huburl" value="TESTCONTROL02"></parameter>
+        <parameter name="selenium.targetbits" value="BIT_64"></parameter>
+    <classes>
+      <class name="DRC.AutomationFramework.WebDriver.ParrallelTest"/>
+    </classes>
+  </test>  
+ 
+ 
+ 
+ <test name="Chrome-Mac-10.8">
+  		<parameter name="selenium.platform" value="MAC"></parameter>        
+        <parameter name="selenium.browser" value="CHROME"></parameter>
+        <parameter name="selenium.version" value="MAC_10_8_64_BIT"></parameter>
+        <parameter name="selenium.huburl" value="TESTCONTROL02"></parameter>
+        <parameter name="selenium.targetbits" value="BIT_64"></parameter>
+    <classes>
+      <class name="DRC.AutomationFramework.WebDriver.ParrallelTest"/>
+    </classes>
+  </test>
+  
+  --> 
+  
+</suite> 

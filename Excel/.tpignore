@@ -1,0 +1,5 @@
+\Q/target/Excel-0.0.1.jar\E
+\Q/target/maven-archiver/\E.*
+\Q/target/surefire/\E.*
+\Q/target/surefire-reports/\E.*
+\Q/target/\E.*

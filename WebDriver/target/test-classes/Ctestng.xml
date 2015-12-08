@@ -1,0 +1,18 @@
+
+<--!
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="IE-Local" thread-count="2">
+  		<parameter name="selenium.platform" value="LOCAL"></parameter>        
+        <parameter name="selenium.browser" value="IE"></parameter>
+        <parameter name="selenium.version" value="NOTSPECIFIED"></parameter>
+        <parameter name="selenium.huburl" value="NONE"></parameter>
+        <parameter name="selenium.targetbits" value="BIT_32"></parameter>
+        
+    <classes>
+      <class name="DRC.AutomationFramework.WebDriver.ParrallelTest"/>
+    </classes>
+  </test> 
+  
+</suite> 
+-->

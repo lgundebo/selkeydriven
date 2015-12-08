@@ -1,0 +1,2 @@
+\Q/test-output/\E.*
+\Q/target/\E.*
