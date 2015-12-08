@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <test name="Test Case Execution(failed)">
+    <classes>
+      <class name="DRC.AutomationFramework.Execution.TestCaseExecution">
+        <methods>
+          <include name="TestCaseExecution" invocation-numbers="0"/>
+          <include name="Close"/>
+        </methods>
+      </class> <!-- DRC.AutomationFramework.Execution.TestCaseExecution -->
+    </classes>
+  </test> <!-- Test Case Execution(failed) -->
+</suite> <!-- Failed suite [suite1] -->

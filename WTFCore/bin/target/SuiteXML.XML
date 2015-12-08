@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="250" verbose="-1" name="IATSuite" parallel="tests">
+  <test thread-count="3" name="Test_WIN7_6.1_32Bit__Chr_37.0_32Bit" parallel="classes" preserve-order="false">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="profile" value="default"/>
+    <parameter name="hubURL" value="LOCALHOST:4444"/>
+    <parameter name="bit" value="32BIT"/>
+    <parameter name="version" value="WIN7:6.1:32Bit::Chr:37.0:32Bit"/>
+    <parameter name="platform" value="WINDOWS7"/>
+    <classes>
+      <class name="Test.IAT_ItemBankSuite_State"/>
+    </classes>
+  </test> <!-- Test_WIN7_6.1_32Bit__Chr_37.0_32Bit -->
+</suite> <!-- IATSuite -->

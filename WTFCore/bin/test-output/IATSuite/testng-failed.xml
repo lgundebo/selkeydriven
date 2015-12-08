@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [IATSuite]" parallel="tests">
+  <parameter name="browser" value="iexplorer"/>
+  <parameter name="profile" value="default"/>
+  <parameter name="version" value="8"/>
+  <parameter name="platform" value="windows"/>
+  <test name="ChromeLinux(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="profile" value="default"/>
+    <parameter name="version" value="8"/>
+    <parameter name="platform" value="Linux"/>
+    <classes>
+      <class name="Test.Andy">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.Andy -->
+      <class name="Test.IAT_ItemBankSuite_Teacher">
+        <methods>
+          <include name="TC_PassageSearch_NoData_Teacher"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.IAT_ItemBankSuite_Teacher -->
+    </classes>
+  </test> <!-- ChromeLinux(failed) -->
+  <test name="WINIE(failed)" parallel="tests">
+    <parameter name="browser" value="iexplorer"/>
+    <parameter name="profile" value="default"/>
+    <parameter name="version" value="8"/>
+    <parameter name="platform" value="windows"/>
+    <classes>
+      <class name="Test.Andy">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.Andy -->
+      <class name="Test.IAT_ItemBankSuite_Teacher">
+        <methods>
+          <include name="TC_PassageSearch_NoData_Teacher"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.IAT_ItemBankSuite_Teacher -->
+    </classes>
+  </test> <!-- WINIE(failed) -->
+  <test name="SafariMACTest(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <parameter name="profile" value="default"/>
+    <parameter name="version" value="8"/>
+    <parameter name="platform" value="MAC"/>
+    <classes>
+      <class name="Test.Andy">
+        <methods>
+          <include name="Andy"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.Andy -->
+      <class name="Test.IAT_ItemBankSuite_Teacher">
+        <methods>
+          <include name="TC_PassageSearch_NoData_Teacher"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.IAT_ItemBankSuite_Teacher -->
+    </classes>
+  </test> <!-- SafariMACTest(failed) -->
+</suite> <!-- Failed suite [IATSuite] -->

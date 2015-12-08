@@ -1,0 +1,44 @@
+[0.000][INFO]:      ChromeDriver 26.0.1383.0 C:\iat-sqa\DRCIATAutomation\workspace\IAT_Automation\ChromeDriver\chromedriver.exe
+[0.578][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [  ],
+   "chromeOptions": {
+      "args": [  ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[0.578][INFO]:      Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors about:blank
+[0.788][INFO]:      Connected to Chrome successfully. Version: 31.0.1650.57
+[0.806][FINE]:      Command received (/session/b6c2ae123fc012827f58dcd335ec3f64)
+[0.806][FINE]:      Command finished (/session/b6c2ae123fc012827f58dcd335ec3f64) with response {
+   "sessionId": "b6c2ae123fc012827f58dcd335ec3f64",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "31.0.1650.57",
+      "webStorageEnabled": true
+   }
+}
+
+[5.834][FINE]:      Command received (/session/b6c2ae123fc012827f58dcd335ec3f64/url) with params {
+   "url": "https://ne-iat-sqa.drcedirect.com/login/auth"
+}
+
+[5.834][FINER]:     Waiting for all views to stop loading...
+[5.834][FINER]:     Done waiting for all views to stop loading

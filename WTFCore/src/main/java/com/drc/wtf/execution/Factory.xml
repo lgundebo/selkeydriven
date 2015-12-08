@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="instances">
+<test name="XML" >
+<classes>
+<class name="DRC.AutomationFramework.WebDriver.WebTestFactory" />
+</classes>
+</test>
+</suite>

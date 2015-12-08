@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="250" verbose="-1" name="Failed suite [IATSuite]" parallel="tests">
+  <parameter name="browser" value="CHROME"/>
+  <parameter name="profile" value="default"/>
+  <parameter name="hubURL" value="LOCALHOST:4444"/>
+  <parameter name="bit" value="32BIT"/>
+  <parameter name="version" value="WIN7:6.1:32Bit::Chr:37.0:32Bit"/>
+  <parameter name="platform" value="WINDOWS7"/>
+  <test name="Test_WIN7_6.1_32Bit__Chr_37.0_32Bit(failed)" parallel="classes">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="profile" value="default"/>
+    <parameter name="hubURL" value="LOCALHOST:4444"/>
+    <parameter name="bit" value="32BIT"/>
+    <parameter name="version" value="WIN7:6.1:32Bit::Chr:37.0:32Bit"/>
+    <parameter name="platform" value="WINDOWS7"/>
+    <classes>
+      <class name="Test.IAT_ItemBankSuite_State">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TC_Item_HideComment_State"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- Test.IAT_ItemBankSuite_State -->
+    </classes>
+  </test> <!-- Test_WIN7_6.1_32Bit__Chr_37.0_32Bit(failed) -->
+</suite> <!-- Failed suite [IATSuite] -->

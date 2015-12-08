@@ -1,0 +1,9 @@
+\Q/test-output/\E.*
+\Q/target/maven-status/\E.*
+\Q/target/maven-archiver/\E.*
+\Q/target/generated-test-sources/\E.*
+\Q/target/generated-sources/\E.*
+\Q/target/\E.*
+\Q/src/main/java/config.properties\E
+\Q/DRCWebTestingFrameworkIATTestResults/\E.*
+\Q/src/main/java/suite.properties\E
